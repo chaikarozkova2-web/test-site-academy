@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Нейросети в помощь - Лариса Рожкова</title>
+<link rel="stylesheet" href="brand/colors.css">
+<link rel="stylesheet" href="brand/fonts.css">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: var(--brand-bg); color: var(--brand-text); }
+  .container { max-width: 1080px; margin: 0 auto; padding: 0 24px; }
+
+  header {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 18px 0;
+  }
+  nav a {
+    color: var(--brand-text-muted); text-decoration: none;
+    margin-left: 28px; font-size: 16px;
+  }
+  nav a:hover { color: var(--brand-primary); }
+
+  .hero {
+    text-align: center;
+    padding: 72px 0 64px;
+    background: linear-gradient(180deg, #EAF6EF 0%, var(--brand-bg) 100%);
+  }
+  .hero h1 { font-size: 44px; margin: 20px 0 18px; }
+  .hero p {
+    font-size: 20px; color: var(--brand-text-muted);
+    max-width: 640px; margin: 0 auto 32px;
+  }
+  .btn {
+    display: inline-block; background: var(--brand-primary); color: #fff;
+    padding: 15px 36px; border-radius: var(--brand-radius);
+    text-decoration: none; font-size: 18px; font-weight: 600;
+  }
+  .btn:hover { background: var(--brand-primary-dark); }
+
+  section { padding: 56px 0; }
+  h2 { font-size: 32px; text-align: center; margin-bottom: 36px; }
+
+  .cards {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px;
+  }
+  .card {
+    background: var(--brand-surface); border-radius: var(--brand-radius);
+    padding: 28px; box-shadow: 0 2px 12px rgba(27,67,50,.07);
+  }
+  .card .icon { font-size: 36px; margin-bottom: 14px; }
+  .card h3 { font-size: 20px; margin-bottom: 10px; }
+  .card p { color: var(--brand-text-muted); font-size: 16px; }
+
+  .about {
+    display: flex; align-items: center; gap: 40px;
+    background: var(--brand-surface); border-radius: var(--brand-radius);
+    padding: 40px; box-shadow: 0 2px 12px rgba(27,67,50,.07);
+  }
+  .avatar {
+    width: 120px; height: 120px; border-radius: 50%;
+    background: var(--brand-primary-light); flex-shrink: 0;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 44px;
+  }
+  .about p { color: var(--brand-text-muted); margin-top: 10px; }
+
+  footer {
+    background: #DDE3E0;
+    text-align: center; padding: 36px 0; margin-top: 40px;
+    color: var(--brand-text-muted); font-size: 15px;
+    border-radius: var(--brand-radius) var(--brand-radius) 0 0;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <header>
+    <img src="brand/logo.svg" alt="Лариса Рожкова - нейросети в помощь" width="200">
+    <nav>
+      <a href="#uslugi">Услуги</a>
+      <a href="#obomne">Обо мне</a>
+      <a href="#contact">Контакты</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h1>Нейросети в помощь</h1>
+    <p>Помогаю разобраться с нейросетями и применять их для сайта, канала, текстов, идей и повседневных задач. Простым языком, спокойно и с практическим результатом.</p>
+    <a href="#contact" class="btn">Обсудить задачу</a>
+  </div>
+
+  <section id="uslugi">
+    <h2>Чем я могу помочь</h2>
+    <div class="cards">
+      <div class="card">
+        <div class="icon">✍️</div>
+        <h3>Тексты с помощью ИИ</h3>
+        <p>Статьи, посты, письма и идеи для контента. Нейросеть черновит - вы редактируете.</p>
+      </div>
+      <div class="card">
+        <div class="icon">🤖</div>
+        <h3>AI-ассистенты</h3>
+        <p>Подберу и настрою нейросеть под вашу задачу - от переписки до анализа документов.</p>
+      </div>
+      <div class="card">
+        <div class="icon">⚙️</div>
+        <h3>Простые автоматизации</h3>
+        <p>Рутинные действия - по расписанию и без ручной работы. Сэкономлю ваше время.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="obomne">
+    <h2>Обо мне</h2>
+    <div class="about">
+      <div class="avatar">👩‍💻</div>
+      <div>
+        <h3>Лариса Рожкова</h3>
+        <p>Инженер с большим жизненным опытом и современным инструментарием. Сама прошла путь от первого клика до работы с нейросетями - и знаю, как страшно бывает в начале. Объясню так, что будет понятно с первого раза.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <p>📧 larisa@setevikrozhkova.ru &nbsp;|&nbsp; 💬 Telegram: @rozhkova_ai</p>
+    <p style="margin-top:10px">© 2026 Лариса Рожкова. Нейросети в помощь.</p>
+  </footer>
+
+</div>
+</body>
+</html>

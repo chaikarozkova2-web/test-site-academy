@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="64" viewBox="0 0 220 64">
+  <rect x="2" y="10" width="44" height="44" rx="12" fill="#2E9E5B"/>
+  <path d="M14 32c0-8 5-14 13-14" stroke="#fff" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <circle cx="34" cy="20" r="4" fill="#B7E4C7"/>
+  <path d="M14 32c0 8 5 14 13 14" stroke="#B7E4C7" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <circle cx="34" cy="44" r="4" fill="#fff"/>
+  <text x="56" y="30" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#1B4332">Рожкова</text>
+  <text x="56" y="50" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#2E9E5B">нейросети в помощь</text>
+</svg>
