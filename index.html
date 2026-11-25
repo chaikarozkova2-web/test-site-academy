@@ -35,8 +35,19 @@
     display: inline-block; background: var(--brand-primary); color: #fff;
     padding: 15px 36px; border-radius: var(--brand-radius);
     text-decoration: none; font-size: 18px; font-weight: 600;
+    box-shadow: 0 0 18px rgba(46,158,91,.45);
+    transition: box-shadow .3s, transform .3s;
   }
-  .btn:hover { background: var(--brand-primary-dark); }
+  .btn:hover {
+    background: var(--brand-primary-dark);
+    box-shadow: 0 0 28px rgba(46,158,91,.75);
+    animation: wave 1.2s ease-in-out infinite;
+  }
+  @keyframes wave {
+    0%, 100% { transform: translateY(0) rotate(0deg); }
+    25%      { transform: translateY(-3px) rotate(-1.2deg); }
+    75%      { transform: translateY(3px) rotate(1.2deg); }
+  }
 
   section { padding: 56px 0; }
   h2 { font-size: 32px; text-align: center; margin-bottom: 36px; }
